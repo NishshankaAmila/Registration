@@ -6,7 +6,7 @@ body {
   
   /* Header/Logo Title */
   .header {
-    padding: 60px;
+    padding: 50px;
     text-align: center;
     background: #d6475a;
     color: white;
@@ -16,27 +16,6 @@ body {
   /* Page Content */
   .content {padding:20px;}
 
-  .topnav {
-    overflow: hidden;
-    background-color: #e9e9e9;
-  }
-  .topnav a {
-    float: left;
-    display: block;
-    color: rgba(0, 0, 0, 0.911);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  .topnav a.active {
-    background-color: #2196F3;
-    color: white;
-  }
 
   .topnav input[type=text] {
     padding: 6px;
@@ -45,17 +24,66 @@ body {
     border: none;
   }
   .topnav .search-container button {
-    float: right;
     padding: 6px 10px;
-    margin-top: 8px;
+    margin-top: 0.5px;
     margin-right: 16px;
-    background: #ddd;
+    background: hwb(0 5% 95% / 0.966);
     font-size: 17px;
+    color: #ccc;
     border: none;
     cursor: pointer;
   }
   .topnav .search-container button:hover {
-    background: #ccc;
+    background: #752f2f;
   }
-  
+  .search {
+    position: absolute;
+    top: 35px;
+    left: 275px;
+    height: 30px;
+    width: 560px;
+}
+.btn{
+    position: absolute;
+    top: 43px;
+    left: 775px;
+    height: 42px;
+}
+
+.Container{
+    height: 50px;
+    width: 250px;
+    overflow-y: auto;
+    background-color: rgb(196, 207, 196);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+/* Set the effects to the division
+    named content */
+.Content{
+    height: 200px;
+    color: white;
+    text-align: center;
+}
  
+/* Designing for scroll-bar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: gainsboro;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(187, 178, 178);
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

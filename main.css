@@ -1,0 +1,17 @@
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  /* Header/Logo Title */
+  .header {
+    padding: 1px;
+    text-align: center;
+    background: hwb(342 14% 21%);
+    color: rgb(245, 235, 235);
+    font-size: 30px;
+  }
+  
+  /* Page Content */
+  .content {padding:20px;}

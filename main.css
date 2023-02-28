@@ -6,12 +6,27 @@ body {
   
   /* Header/Logo Title */
   .header {
-    padding: 1px;
+    padding: 60px;
     text-align: center;
-    background: hwb(342 14% 21%);
-    color: rgb(245, 235, 235);
+    background: #d6475a;
+    color: white;
     font-size: 30px;
   }
   
   /* Page Content */
   .content {padding:20px;}
+
+  .topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  

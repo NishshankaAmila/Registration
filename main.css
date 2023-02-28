@@ -2,6 +2,7 @@
 body {
     font-family: Arial;
     margin: 0;
+    background-color: rgb(212, 212, 207);
   }
   
   /* Header/Logo Title */
@@ -9,7 +10,7 @@ body {
     padding: 50px;
     text-align: center;
     background: #d6475a;
-    color: white;
+    color: #ffffff;
     font-size: 30px;
   }
   
@@ -60,15 +61,11 @@ body {
 }
 /* Set the effects to the division
     named content */
-.Content{
-    height: 200px;
-    color: white;
-    text-align: center;
-}
+
  
 /* Designing for scroll-bar */
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 10px;
 }
 
 /* Track */
@@ -87,3 +84,25 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+.content{
+    height: 550px;
+    width: 13%;
+    margin-left: 7%;
+    margin-top: 1%;
+    background-color: #ffffff;
+    color: black;
+
+  }
+  a:link { 
+    text-decoration: none;
+   margin-left: 1%;
+   font-style:initial;                                     
+}
+.img1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+ 

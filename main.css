@@ -86,7 +86,7 @@ body {
 }
 
 .content{
-    height: 550px;
+    height: 680px;
     width: 13%;
     margin-left: 7%;
     margin-top: 1%;
@@ -99,10 +99,24 @@ body {
    margin-left: 1%;
    font-style:initial;                                     
 }
-.img1 {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-  
- 
+.content1{
+   display: flex;
+   flex-direction: row;
+}
+.content1 img{
+    margin: 11px;
+}
+.content2 img{
+    margin: 11px;
+}
+
+.Main-of-Content{
+    display: flex;
+    flex-direction: row;
+}
+.Main-Slider{
+    width: 100%;
+    height: 400px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
